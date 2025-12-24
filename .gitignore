@@ -1,0 +1,38 @@
+# --- Unreal Engine Core Exclusions ---
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+FileOpenOrder/
+
+# --- Project Specific ---
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.VC.VC.opendb
+
+# --- Visual Studio & IDEs ---
+.vs/
+.idea/
+.vscode/
+*.code-workspace
+*.DotSettings.user
+
+# --- Plugins ---
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# --- macOS / Platform Specific ---
+.DS_Store
+*.xcodeproj
+*.xcworkspace
+*.app
+*.ipa
+
+# --- Local User Settings ---
+# These often contain window positions and local paths
+UserSaves/
