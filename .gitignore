@@ -5,6 +5,7 @@ DerivedDataCache/
 Intermediate/
 Saved/
 FileOpenOrder/
+Videos/
 
 # --- Project Specific ---
 *.sln
